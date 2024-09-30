@@ -1,0 +1,244 @@
+{
+  "device_info": {
+    "model": "Pixel 6 Pro",
+    "whole_screen_width": 1440.0,
+    "whole_screen_height": 3120.0,
+    "num_all_heatmap_rows": 39,
+    "num_all_heatmap_cols": 18,
+    "num_valid_heatmap_rows": 16
+  },
+  "keyboard_info": {
+    "keyboard_width": 1440.0,
+    "keyboard_height": 854.0,
+    "top_left_x_position": 0.0,
+    "top_left_y_position": 2098.0,
+    "most_common_key_width": 135.0,
+    "most_common_key_height": 206.0
+  },
+  "keys_info": {
+    "q": {
+      "key_id": "q",
+      "text_literal": "Q",
+      "key_center_x": 112.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "w": {
+      "key_id": "w",
+      "text_literal": "W",
+      "key_center_x": 247.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "e": {
+      "key_id": "e",
+      "text_literal": "E",
+      "key_center_x": 382.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "r": {
+      "key_id": "r",
+      "text_literal": "R",
+      "key_center_x": 517.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "t": {
+      "key_id": "t",
+      "text_literal": "T",
+      "key_center_x": 652.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "y": {
+      "key_id": "y",
+      "text_literal": "Y",
+      "key_center_x": 787.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "u": {
+      "key_id": "u",
+      "text_literal": "U",
+      "key_center_x": 922.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "i": {
+      "key_id": "i",
+      "text_literal": "I",
+      "key_center_x": 1057.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "o": {
+      "key_id": "o",
+      "text_literal": "O",
+      "key_center_x": 1192.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "p": {
+      "key_id": "p",
+      "text_literal": "P",
+      "key_center_x": 1327.0,
+      "key_center_y": 131.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "a": {
+      "key_id": "a",
+      "text_literal": "A",
+      "key_center_x": 180.0,
+      "key_center_y": 337.0,
+      "key_width": 134.0,
+      "key_height": 206.0
+    },
+    "s": {
+      "key_id": "s",
+      "text_literal": "S",
+      "key_center_x": 314.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "d": {
+      "key_id": "d",
+      "text_literal": "D",
+      "key_center_x": 449.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "f": {
+      "key_id": "f",
+      "text_literal": "F",
+      "key_center_x": 584.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "g": {
+      "key_id": "g",
+      "text_literal": "G",
+      "key_center_x": 719.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "h": {
+      "key_id": "h",
+      "text_literal": "H",
+      "key_center_x": 854.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "j": {
+      "key_id": "j",
+      "text_literal": "J",
+      "key_center_x": 989.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "k": {
+      "key_id": "k",
+      "text_literal": "K",
+      "key_center_x": 1124.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "l": {
+      "key_id": "l",
+      "text_literal": "L",
+      "key_center_x": 1259.0,
+      "key_center_y": 337.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "z": {
+      "key_id": "z",
+      "text_literal": "Z",
+      "key_center_x": 314.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "x": {
+      "key_id": "x",
+      "text_literal": "X",
+      "key_center_x": 449.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "c": {
+      "key_id": "c",
+      "text_literal": "C",
+      "key_center_x": 584.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "v": {
+      "key_id": "v",
+      "text_literal": "V",
+      "key_center_x": 719.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "b": {
+      "key_id": "b",
+      "text_literal": "B",
+      "key_center_x": 854.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "n": {
+      "key_id": "n",
+      "text_literal": "N",
+      "key_center_x": 989.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    "m": {
+      "key_id": "m",
+      "text_literal": "M",
+      "key_center_x": 1124.0,
+      "key_center_y": 543.0,
+      "key_width": 135.0,
+      "key_height": 206.0
+    },
+    ".": {
+      "key_id": ".",
+      "text_literal": ".",
+      "key_center_x": 1124.0,
+      "key_center_y": 750.0,
+      "key_width": 135.0,
+      "key_height": 208.0
+    },
+    "SPACE": {
+      "key_id": "SPACE",
+      "text_literal": " ",
+      "key_center_x": 719.0,
+      "key_center_y": 750.0,
+      "key_width": 675.0,
+      "key_height": 208.0
+    }
+  }
+}
