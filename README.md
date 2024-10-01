@@ -1,4 +1,4 @@
-# Tap Typing with Touch Sensing Images (TSI) dataset
+# Tap Typing with Touch Sensing Images (TSI) Dataset
 
 This dataset is associated with the UIST 2024 paper titled
 ["Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?"](https://doi.org/10.1145/3654777.3676420)
@@ -22,8 +22,8 @@ examples together with a keyboard layout file and a prompt file.
 ## Terminology
 
 <p align="center">
-  <img src="figs/centroid_ellipse_heatmap.png" width="500"/>
-  <br><em>Visualization of a sample touch point. The heatmap depicts the capacitive touch sensing image for this touch point. The red dot indicates the touch centroid derived from the touch sensing image. The red ellipse represents the touch ellipse fitted to this touch area. The solid and dashed lines illustrate the major and minor axes of the ellipse, respectively. </em>
+  <img src="figs/centroid_ellipse_heatmap_whitebg.png" width="500"/>
+  <br><em>Visualization of a sample touch point. The heatmap depicts the capacitive touch sensing image for this touch point. The red dot indicates the touch centroid derived from the touch sensing image. The red ellipse represents the touch ellipse fitted to this touch area. The solid and dashed lines illustrate the major and minor axes of the ellipse, respectively.</em>
 </p>
 
 -   **Touch point**: A single user tap on the touchscreen.
@@ -124,7 +124,7 @@ SPACE, and PERIOD (28 keys in total)**. The distributions of them are shown
 below.
 
 <p align="center">
-  <img src="figs/character_distributions.png"/>
+  <img src="figs/character_distributions_whitebg.png"/>
   <br><em>Distributions of reference characters in the dataset (Left) from English phrases prompts only, (Middle) from random strings prompts only, (Right) from both types of prompts.</em>
 </p>
 
@@ -229,7 +229,7 @@ consists of
     PERIOD (`.`).
 
 <p align="center">
-  <img src="figs/first_example.png" width="500"/>
+  <img src="figs/first_example_whitebg.png" width="500"/>
   <br><em>The visualization of the first example on the keyboard layout.</em>
 </p>
 
@@ -273,6 +273,8 @@ Some example lines of keyboard_data.json are shown below.
       "key_height": 206.0
     },
     ...
+  }
+}
 ```
 
 This json file contains information about the device and the keyboard used for
@@ -312,6 +314,32 @@ participant_id, the task_id, and the trial_id as the composite key and the
 prompt_type (`phrase` or `random`) and the prompt text as values. The
 prompt_data.csv can be used together with the touch_data.csv to figure out where
 the reference character is in the prompt.
+
+## Dataset Metadata
+
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+  <table>
+    <tr>
+      <th>property</th>
+      <th>value</th>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td><code itemprop="name">Tap Typing with Touch Sensing Images (TSI) Dataset</code></td>
+    </tr>
+      <tr>
+      <td>description</td>
+      <td><code itemprop="description">The Tap Typing with Touch Sensing Images (TSI) dataset contains data of user taps on a mobile touchscreen keyboard. Each tap is characterized by its centroid and elliptical features as well as its capacitive touch sensing image (TSI). The dataset aligns each tap with a key the user intended to type during data collection so it can be used for keyboard decoder training and/or evaluation. In total, this TSI dataset consists of 43,735 taps (from 16 participants performing copy-typing tasks) together with a keyboard layout file and a prompt file.</code></td>
+    </tr>
+    </tr>
+      <tr>
+      <td>sameAs</td>
+      <td><code itemprop="sameAs">https://github.com/google-research-datasets/tap-typing-with-touch-sensing-images</code></td>
+    </tr>
+  </table>
+</div>
 
 ## Citation
 
