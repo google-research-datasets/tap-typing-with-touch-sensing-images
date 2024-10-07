@@ -346,7 +346,15 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
 If you use or refer to the TSI dataset, please cite the following paper.
 
 ```txt
-TBC
+@misc{lertvittayakumjorn2024can,
+      title={Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?}, 
+      author={Piyawat Lertvittayakumjorn and Shanqing Cai and Billy Dou and Cedric Ho and Shumin Zhai},
+      year={2024},
+      eprint={2410.02264},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2410.02264}, 
+}
 ```
 
 ## Contact
