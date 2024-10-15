@@ -1,7 +1,7 @@
 # Tap Typing with Touch Sensing Images (TSI) Dataset
 
 This dataset is associated with the UIST 2024 paper titled
-["Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?"](https://arxiv.org/abs/2410.02264)
+["Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?"](https://doi.org/10.1145/3654777.3676420)
 by Piyawat Lertvittayakumjorn, Shanqing Cai, Billy Dou, Cedric Ho, and Shumin
 Zhai from Google.
 
@@ -41,7 +41,7 @@ examples together with a keyboard layout file and a prompt file.
     minor axis of the ellipse, and the orientation of the ellipse.
 -   **Heatmap overlap vector**: A novel representation of touch sensing image
     (i.e., touch heatmap) presented in our
-    [our UIST paper](https://arxiv.org/abs/2410.02264). It was devised
+    [our UIST paper](https://doi.org/10.1145/3654777.3676420). It was devised
     specifically for keyboard decoding. In particular, it is a vector of N
     numbers corresponding to the overlapping areas between the heatmap cells and
     the N candidate keys.
@@ -58,7 +58,7 @@ examples together with a keyboard layout file and a prompt file.
 ## Data collection and processing
 
 The touch points in this dataset were collected during Study 3 in
-[our UIST paper](https://arxiv.org/abs/2410.02264) by asking 16
+[our UIST paper](https://doi.org/10.1145/3654777.3676420) by asking 16
 participants to copy-type given prompts.
 
 ### Participant-inclusion criteria
@@ -142,7 +142,7 @@ reference text for alignment was a prefix of the prompt (with 1 character longer
 than the current text so far to allow an omission error). We only kept
 alignments of those not being aligned during submitted touch point alignment. We
 refer to Section 4.2 of
-[our UIST paper](https://arxiv.org/abs/2410.02264) for more details.
+[our UIST paper](https://doi.org/10.1145/3654777.3676420) for more details.
 
 ## Data structure
 
@@ -221,7 +221,7 @@ consists of
     numbers corresponding to the overlapping area between the heatmap cells and
     the 28 candidate keys (`a`, `b`, `c`, …, `z`, `SPACE`, and `.` in this
     order). We refer to Section 3.1 of
-    [our UIST paper](https://arxiv.org/abs/2410.02264) for more details.
+    [our UIST paper](https://doi.org/10.1145/3654777.3676420) for more details.
 -   **was_deleted** (bool): Whether the touch point was deleted by the
     participant. Possible values are `True` and `False`.
 -   **lm_scores** (list[float]): The language model scores for `a`, `b`, ...,
@@ -346,14 +346,21 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
 If you use or refer to the TSI dataset, please cite the following paper.
 
 ```txt
-@misc{lertvittayakumjorn2024can,
-      title={Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?}, 
-      author={Piyawat Lertvittayakumjorn and Shanqing Cai and Billy Dou and Cedric Ho and Shumin Zhai},
-      year={2024},
-      eprint={2410.02264},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC},
-      url={https://arxiv.org/abs/2410.02264}, 
+@inproceedings{10.1145/3654777.3676420,
+  author = {Lertvittayakumjorn, Piyawat and Cai, Shanqing and Dou, Billy and Ho, Cedric and Zhai, Shumin},
+  title = {Can Capacitive Touch Images Enhance Mobile Keyboard Decoding?},
+  year = {2024},
+  isbn = {9798400706288},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3654777.3676420},
+  doi = {10.1145/3654777.3676420},
+  booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+  articleno = {8},
+  numpages = {17},
+  keywords = {key decoding, machine learning, mobile text entry, touch interface},
+  location = {Pittsburgh, PA, USA},
+  series = {UIST '24}
 }
 ```
 
